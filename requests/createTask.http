@@ -1,0 +1,7 @@
+POST http://localhost:3000/createtask HTTP/1.1
+Content-Type: application/json
+
+{
+  "body": "Git Good",
+  "isDone": false
+}
